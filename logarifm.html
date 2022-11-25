@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+
+    <title>Logarifm</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar fixed-top navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="index.html" class="my">Линейные графы</a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">Все ивенты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">Версия 2.8.5</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading3">Версия 2.8.6</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading4">Версия 2.8.7</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading5">Версия 2.8.8</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading6">Версия 2.8.9</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading7">Версия 2.9.0</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading8">Версия 2.9.1</a>
+                      </li>
+
+
+                </ul>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Вход в аккаунт
+                </button>
+
+            </div>
+        </nav>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Вход в аккаунт</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email аддрес</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+
+                        <button data-bs-dismiss="modal" type="submit" class="btn btn-primary center">Войти</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <br>
+        <br><br>
+        <br><br>
+        <br>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+            tabindex="0">
+            <br>
+            <br><br>
+            <h4 id="scrollspyHeading1">Все ивенты </h4>
+            <span class="foo">
+                <br><br><br>
+                <canvas style="margin-left: 10px;" class="child" id="myChart"></canvas>
+            </span>
+            <br><br><br>
+            <h4 id="scrollspyHeading2">Версия 2.8.5</h4>
+            <span class="foo" data-delighter>
+                <br><br><br>
+                <canvas class="child" id="all"></canvas>
+            </span>
+            <br><br><br>
+            <h4 id="scrollspyHeading3">Версия 2.8.6</h4>
+            <span class="foo" data-delighter>
+                <br><br><br>
+                <canvas class="child" id="all"></canvas>
+            </span>
+            <br><br><br>
+            <h4 id="scrollspyHeading4">Версия 2.8.7</h4>
+            <span class="foo" data-delighter>
+                <br><br><br>
+                <canvas class="child" id="all"></canvas>
+            </span>
+            <br><br><br>
+            <h4 id="scrollspyHeading5">Версия 2.8.8</h4>
+            <span class="foo" data-delighter>
+                <br><br><br>
+                <canvas class="child" id="all"></canvas>
+            </span>
+            <br><br><br>
+            <h4 id="scrollspyHeading6">Версия 2.8.9</h4>
+            <span class="foo" data-delighter>
+                <br><br><br>
+                <canvas class="child" id="all"></canvas>
+            </span>
+            <br><br><br>
+            <h4 id="scrollspyHeading7">Версия 2.9.0</h4>
+            <span class="foo" data-delighter>
+                <br><br><br>
+                <canvas class="child" id="all"></canvas>
+            </span>
+            <br><br><br>
+            <h4 id="scrollspyHeading8">Версия 2.9.1</h4>
+            <span class="foo" data-delighter>
+                <br><br><br>
+                <canvas class="child" id="all"></canvas>
+            </span>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    </div>
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Наши игры
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Игра "Название"</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Игра "Название"</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Игра "Название"</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Игра "Название"</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Контакты</h6>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 7 921 567 88</p>
+            <i class="fas fa-print me-3 text-secondary"></i> + 7 921 567 88</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="logarifm.html">Новгородцев Кирилл</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- <script type="text/javascript" src="delighters.js"></script> -->
+
+    <script>
+
+
+        let data = { "versions": ["2.8.5", "2.8.6", "2.8.7", "2.8.8", "2.8.9", "2.9", "2.9.1"], "v_dict_count": { "2.8.6": 34014, "2.8.5": 1508, "2.9": 34382, "2.9.1": 20387, "2.8.7": 20384, "2.8.8": 16352, "2.8.9": 8156 }, "events_to_version": { "2.8.6": { "open_map_6": 81, "quest_open_14": 77, "quest_open_15": 77, "quest_done_15": 75, "quest_open_13": 76, "dialogue_cat_close_10": 75, "quest_done_13": 49, "quest_done_10": 70, "quest_open_11": 70, "quest_done_16": 61, "dialogue_cat_close_8": 79, "dialogue_mi_close_0": 65, "dialogue_mi_close_1": 63, "dialogue_marya_close_2": 212, "dialogue_mi_close_2": 57, "dialogue_marya_close_0": 235, "merge_marya": 227, "dialogue_marya_close_1": 219, "merge_stebel": 217, "merge_bloom_tree": 214, "dialogue_marya_close_3": 210, "quest_done_0": 206, "level_up_2": 195, "dialogue_marya_close_4": 168, "quest_open_1": 183, "first-drop-apples": 185, "dialogue_marya_close_5": 183, "2_apple_harvested": 183, "dialogue_marya_close_6": 180, "first-exchange": 176, "quest_done_1": 170, "dialogue_marya_close_7": 173, "first-key-collect": 165, "dialogue_marya_close_8": 163, "open_map_2": 160, "dialogue_mc_close_0": 155, "quest_open_2": 155, "quest_open_17": 155, "dialogue_cat_close_0": 143, "first_click_in_root": 183, "first-cutting-of-the-root": 148, "quest_done_2": 147, "dialogue_cat_close_1": 147, "quest_open_5": 147, "second_click_in_root": 168, "dialogue_cat_close_2": 142, "second-cutting-of-the-root": 143, "first-delete-root": 143, "dialogue_cat_close_3": 143, "dialogue_cat_close_4": 143, "first_click_in_chest": 143, "first_click_in_chest_open": 119, "quest_open_6": 143, "first-open-chestS": 143, "dialogue_cat_close_5": 127, "dialogue_cat_close_6": 118, "dialogue_mc_close_1": 125, "level_up_3": 122, "open_map_3": 121, "dialogue_cat_close_9": 120, "first-merge-logs": 120, "quest_done_17": 117, "quest_open_4": 116, "quest_open_3": 116, "quest_done_3": 108, "quest_open_9": 107, "quest_done_5": 113, "quest_open_7": 108, "second-open-chestS": 128, "open_map_4": 102, "level_up_4": 114, "dialogue_mc_close_6": 108, "quest_open_8": 102, "quest_open_16": 102, "open_map_5": 102, "quest_done_6": 98, "dialogue_mc_close_7": 102, "quest_open_18": 102, "quest_done_7": 98, "quest_open_10": 98, "quest_done_9": 86, "dialogue_cat_close_7": 87, "level_up_5": 86, "quest_done_4": 65, "spawn_ivan": 65, "level_up_6": 63, "dialogue_mi_close_3": 47, "open_map_7": 57, "quest_done_11": 41, "quest_open_12": 40, "dialogue_mi_close_4": 36, "quest_done_14": 43, "open_map_8": 30, "level_up_7": 32, "level_up_8": 6, "quest_done_12": 18, "learn_modal_close": 48, "spawn_fisherwoman": 1, "open_map_9": 0 }, "2.8.5": { "open_map_6": 6, "quest_open_14": 6, "quest_open_15": 6, "quest_done_15": 6, "quest_open_13": 6, "dialogue_cat_close_10": 6, "quest_done_13": 1, "quest_done_10": 4, "quest_open_11": 4, "quest_done_16": 2, "dialogue_cat_close_8": 5, "dialogue_mi_close_0": 3, "dialogue_mi_close_1": 2, "dialogue_mi_close_2": 2, "dialogue_marya_close_0": 15, "merge_marya": 15, "dialogue_marya_close_1": 14, "merge_stebel": 14, "dialogue_marya_close_2": 14, "merge_bloom_tree": 14, "dialogue_marya_close_3": 14, "quest_done_0": 14, "level_up_2": 14, "dialogue_marya_close_4": 14, "quest_open_1": 14, "first-drop-apples": 13, "dialogue_marya_close_5": 13, "2_apple_harvested": 13, "dialogue_marya_close_6": 13, "first-exchange": 12, "quest_done_1": 12, "dialogue_marya_close_7": 12, "first-key-collect": 12, "dialogue_marya_close_8": 12, "open_map_2": 12, "dialogue_mc_close_0": 11, "quest_open_2": 11, "quest_open_17": 11, "dialogue_cat_close_0": 11, "first_click_in_root": 13, "first-cutting-of-the-root": 11, "quest_done_2": 11, "dialogue_cat_close_1": 11, "quest_open_5": 11, "second_click_in_root": 11, "dialogue_cat_close_2": 11, "second-cutting-of-the-root": 11, "first-delete-root": 11, "dialogue_cat_close_3": 11, "dialogue_cat_close_4": 11, "first_click_in_chest": 10, "first_click_in_chest_open": 10, "quest_open_6": 10, "first-open-chestS": 10, "dialogue_cat_close_5": 10, "dialogue_cat_close_6": 9, "dialogue_mc_close_1": 10, "level_up_3": 10, "open_map_3": 10, "dialogue_cat_close_9": 10, "first-merge-logs": 10, "quest_done_17": 9, "quest_open_4": 9, "quest_open_3": 9, "quest_done_3": 9, "quest_open_9": 9, "quest_done_5": 10, "quest_open_7": 9, "second-open-chestS": 10, "open_map_4": 7, "level_up_4": 9, "dialogue_mc_close_6": 9, "quest_open_8": 7, "quest_open_16": 7, "open_map_5": 9, "quest_done_6": 7, "dialogue_mc_close_7": 9, "quest_open_18": 9, "quest_done_7": 8, "quest_open_10": 8, "quest_done_9": 6, "dialogue_cat_close_7": 5, "level_up_5": 6, "quest_done_4": 3, "spawn_ivan": 3, "level_up_6": 1, "open_map_7": 1, "dialogue_mi_close_3": 0 }, "2.9": { "dialogue_mc_close_0": 156, "quest_open_2": 156, "first_click_in_root": 156, "first-cutting-of-the-root": 157, "dialogue_cat_close_0": 156, "quest_done_2": 152, "second-cutting-of-the-root": 148, "first-delete-root": 148, "dialogue_cat_close_4": 148, "first-open-chestS": 149, "level_up_3": 147, "dialogue_cat_close_6": 136, "open_map_3": 136, "first-merge-logs": 135, "dialogue_mc_close_7": 117, "quest_done_7": 109, "quest_open_10": 108, "dialogue_cat_close_1": 153, "quest_open_21": 151, "second_click_in_root": 184, "dialogue_cat_close_3": 148, "first_click_in_chest": 148, "quest_open_20": 164, "quest_open_19": 157, "quest_open_6": 145, "quest_open_17": 146, "quest_done_20": 158, "quest_open_5": 144, "dialogue_cat_close_5": 144, "dialogue_mc_close_1": 141, "second-open-chestS": 142, "dialogue_cat_close_9": 134, "quest_done_17": 135, "level_up_4": 136, "open_map_5": 125, "quest_done_21": 124, "quest_open_18": 121, "quest_done_5": 126, "quest_open_7": 125, "merge_marya": 195, "dialogue_marya_close_3": 183, "first-exchange": 164, "dialogue_marya_close_8": 161, "quest_open_4": 132, "quest_open_3": 132, "first_items_spawn": 256, "dialogue_marya_close_0": 206, "learn_modal_close": 193, "dialogue_marya_close_1": 187, "merge_stebel": 189, "dialogue_marya_close_2": 185, "merge_bloom_tree": 184, "quest_done_0": 184, "quest_done_3": 122, "quest_open_9": 122, "dialogue_mc_close_6": 122, "dialogue_cat_close_8": 88, "level_up_5": 109, "quest_open_14": 98, "quest_done_13": 93, "quest_open_8": 112, "quest_open_11": 85, "dialogue_mi_close_2": 51, "level_up_6": 70, "dialogue_cat_close_7": 101, "open_map_6": 103, "quest_done_6": 101, "quest_open_15": 96, "quest_open_13": 93, "dialogue_cat_close_10": 92, "open_map_4": 113, "quest_open_16": 112, "quest_done_10": 86, "quest_done_16": 74, "level_up_2": 181, "dialogue_marya_close_5": 173, "2_apple_harvested": 169, "quest_done_15": 95, "quest_done_9": 105, "first-drop-apples": 174, "quest_done_4": 66, "dialogue_mi_close_0": 64, "dialogue_marya_close_6": 170, "quest_done_1": 165, "dialogue_marya_close_7": 163, "first-key-collect": 165, "open_map_2": 162, "spawn_ivan": 66, "dialogue_mi_close_1": 60, "open_map_7": 60, "dialogue_mi_close_3": 44, "quest_done_14": 35, "dialogue_mi_close_5": 51, "quest_done_11": 49, "quest_open_12": 49, "level_up_7": 27, "dialogue_mi_close_4": 25, "open_map_8": 13, "level_up_9": 0, "level_up_8": 11, "dialogue_mi_close_6": 31, "level_up_10": 0, "spawn_fisherwoman": 15, "open_map_9": 3, "quest_done_12": 14, "quest_done_19": 29 }, "2.9.1": { "level_up_8": 10, "quest_open_14": 39, "quest_open_13": 39, "quest_done_12": 14, "quest_done_15": 41, "quest_done_16": 36, "quest_done_11": 28, "quest_open_12": 28, "dialogue_mi_close_3": 26, "dialogue_mi_close_5": 28, "first_items_spawn": 111, "dialogue_marya_close_1": 96, "merge_stebel": 96, "dialogue_marya_close_2": 94, "merge_bloom_tree": 94, "quest_done_0": 93, "dialogue_marya_close_0": 101, "learn_modal_close": 98, "merge_marya": 100, "dialogue_marya_close_3": 93, "level_up_2": 88, "dialogue_cat_close_8": 36, "dialogue_marya_close_6": 83, "quest_done_1": 81, "first-key-collect": 78, "dialogue_marya_close_8": 77, "dialogue_mc_close_0": 77, "quest_open_2": 77, "first_click_in_root": 76, "quest_done_14": 22, "quest_done_4": 36, "quest_done_3": 53, "quest_open_9": 53, "dialogue_mc_close_6": 52, "spawn_ivan": 36, "dialogue_mi_close_2": 33, "dialogue_marya_close_5": 85, "first-drop-apples": 84, "2_apple_harvested": 84, "first-exchange": 81, "dialogue_marya_close_7": 78, "open_map_2": 77, "second-open-chestS": 62, "dialogue_cat_close_0": 76, "first-cutting-of-the-root": 76, "quest_done_2": 74, "dialogue_cat_close_1": 74, "quest_open_21": 73, "second_click_in_root": 73, "second-cutting-of-the-root": 70, "dialogue_cat_close_3": 70, "first-delete-root": 70, "dialogue_cat_close_4": 70, "dialogue_mi_close_1": 34, "first_click_in_chest": 70, "quest_open_20": 70, "quest_open_19": 70, "first-open-chestS": 70, "quest_open_6": 69, "quest_open_17": 69, "level_up_3": 69, "open_map_3": 61, "dialogue_cat_close_9": 61, "first-merge-logs": 61, "quest_done_17": 61, "quest_open_4": 57, "open_map_9": 7, "quest_open_3": 57, "quest_done_19": 67, "level_up_7": 23, "open_map_8": 9, "quest_done_20": 67, "quest_open_5": 67, "dialogue_cat_close_5": 67, "dialogue_cat_close_6": 64, "dialogue_mc_close_1": 64, "level_up_4": 60, "dialogue_mi_close_4": 18, "spawn_fisherwoman": 5, "open_map_5": 55, "quest_done_21": 55, "quest_open_18": 56, "dialogue_mc_close_7": 58, "quest_done_5": 58, "quest_open_7": 58, "open_map_4": 48, "quest_open_8": 48, "quest_open_16": 48, "level_up_9": 4, "level_up_5": 45, "quest_done_9": 43, "quest_done_7": 48, "quest_open_10": 48, "dialogue_cat_close_10": 39, "quest_done_13": 39, "quest_done_10": 39, "quest_open_11": 39, "dialogue_cat_close_7": 42, "dialogue_mi_close_6": 12, "open_map_6": 41, "quest_done_6": 42, "quest_open_15": 39, "dialogue_mi_close_0": 37, "level_up_6": 39, "open_map_7": 31, "quest_done_18": 1 }, "2.8.7": { "2_apple_harvested": 83, "first_click_in_root": 77, "dialogue_cat_close_1": 63, "quest_open_5": 66, "second-cutting-of-the-root": 64, "first-delete-root": 62, "first_click_in_chest": 62, "dialogue_cat_close_5": 58, "dialogue_cat_close_9": 61, "quest_done_17": 61, "quest_open_4": 59, "quest_done_5": 57, "quest_done_10": 39, "dialogue_cat_close_0": 59, "first-cutting-of-the-root": 70, "quest_done_2": 67, "dialogue_cat_close_2": 61, "second_click_in_root": 68, "dialogue_cat_close_3": 63, "dialogue_cat_close_4": 62, "quest_open_6": 62, "first-open-chestS": 62, "dialogue_cat_close_6": 56, "dialogue_mc_close_1": 60, "level_up_3": 61, "second-open-chestS": 58, "open_map_3": 62, "dialogue_marya_close_0": 98, "dialogue_marya_close_1": 94, "learn_modal_close": 94, "merge_marya": 98, "dialogue_marya_close_2": 92, "merge_stebel": 95, "merge_bloom_tree": 92, "dialogue_marya_close_3": 91, "dialogue_marya_close_5": 83, "quest_done_0": 89, "level_up_2": 85, "quest_open_1": 84, "dialogue_marya_close_6": 83, "first-exchange": 81, "first-key-collect": 77, "open_map_2": 76, "dialogue_mc_close_0": 71, "quest_open_17": 70, "first-merge-logs": 61, "level_up_4": 59, "quest_open_3": 59, "first-drop-apples": 83, "quest_done_1": 81, "dialogue_marya_close_7": 77, "dialogue_marya_close_8": 75, "quest_open_2": 71, "open_map_5": 53, "dialogue_mc_close_7": 52, "quest_open_18": 52, "quest_open_7": 58, "dialogue_mc_close_6": 54, "dialogue_mi_close_1": 31, "dialogue_cat_close_8": 38, "quest_done_3": 54, "quest_open_9": 54, "quest_open_11": 39, "quest_done_4": 34, "spawn_ivan": 34, "level_up_6": 37, "dialogue_mi_close_0": 35, "open_map_4": 52, "quest_open_16": 53, "quest_open_8": 53, "quest_done_7": 48, "quest_open_10": 48, "level_up_5": 47, "quest_open_14": 39, "quest_open_15": 39, "quest_done_15": 40, "quest_open_13": 40, "dialogue_cat_close_10": 40, "quest_done_9": 46, "dialogue_cat_close_7": 44, "quest_done_13": 33, "level_up_7": 18, "quest_done_14": 22, "dialogue_mi_close_4": 17, "open_map_6": 41, "quest_done_16": 38, "quest_done_6": 47, "quest_done_12": 1, "dialogue_mi_close_3": 26, "dialogue_marya_close_4": 0, "open_map_8": 14, "dialogue_mi_close_2": 28, "open_map_7": 31, "quest_done_11": 26, "quest_open_12": 26, "spawn_fisherwoman": 14, "level_up_8": 11, "open_map_9": 10, "quest_open_20": 0 }, "2.8.8": { "dialogue_marya_close_0": 95, "learn_modal_close": 94, "merge_marya": 95, "dialogue_marya_close_1": 92, "merge_stebel": 96, "dialogue_marya_close_2": 93, "merge_bloom_tree": 92, "quest_done_0": 88, "level_up_2": 85, "dialogue_marya_close_5": 81, "dialogue_marya_close_3": 88, "first-exchange": 79, "open_map_2": 77, "first_click_in_root": 92, "dialogue_cat_close_1": 66, "first-drop-apples": 80, "2_apple_harvested": 80, "dialogue_marya_close_6": 78, "quest_done_1": 78, "dialogue_marya_close_7": 77, "first-key-collect": 77, "dialogue_marya_close_8": 74, "dialogue_mc_close_0": 75, "quest_open_2": 75, "dialogue_cat_close_0": 71, "first-cutting-of-the-root": 75, "quest_done_2": 71, "quest_open_20": 68, "second_click_in_root": 71, "first-delete-root": 67, "dialogue_cat_close_4": 67, "first-open-chestS": 67, "quest_open_5": 62, "level_up_3": 63, "dialogue_cat_close_5": 60, "second-open-chestS": 62, "dialogue_cat_close_9": 60, "dialogue_cat_close_3": 67, "second-cutting-of-the-root": 67, "first_click_in_chest": 67, "quest_open_6": 67, "quest_done_20": 60, "quest_open_17": 64, "dialogue_mc_close_1": 61, "quest_done_17": 62, "quest_open_19": 106, "open_map_3": 62, "first-merge-logs": 62, "level_up_4": 61, "quest_done_5": 55, "quest_done_19": 55, "quest_open_16": 54, "dialogue_cat_close_8": 39, "quest_done_16": 33, "quest_done_4": 29, "dialogue_mi_close_2": 24, "dialogue_mi_close_0": 27, "dialogue_mi_close_5": 17, "quest_open_7": 54, "quest_open_4": 55, "quest_open_3": 55, "quest_done_3": 51, "quest_open_9": 51, "dialogue_mc_close_6": 51, "open_map_4": 54, "quest_open_8": 54, "spawn_ivan": 29, "dialogue_mi_close_6": 18, "dialogue_mi_close_4": 10, "dialogue_mi_close_1": 26, "quest_done_11": 19, "quest_open_12": 19, "dialogue_cat_close_6": 55, "spawn_fisherwoman": 2, "quest_done_9": 46, "level_up_5": 49, "dialogue_cat_close_7": 42, "quest_done_7": 49, "quest_open_10": 49, "open_map_6": 46, "quest_done_6": 54, "quest_open_14": 43, "quest_open_15": 42, "quest_done_15": 42, "quest_open_13": 42, "dialogue_cat_close_10": 42, "quest_done_13": 27, "open_map_5": 56, "dialogue_mc_close_7": 54, "quest_open_18": 54, "quest_done_10": 38, "level_up_7": 8, "open_map_8": 4, "quest_open_11": 38, "quest_open_1": 4, "level_up_6": 36, "open_map_7": 19, "dialogue_cat_close_2": 2, "open_map_9": 3, "level_up_8": 2, "quest_done_14": 11, "dialogue_mi_close_3": 17, "level_up_9": 0, "quest_open_21": 0, "quest_done_21": 0 }, "2.8.9": { "quest_done_16": 20, "dialogue_mi_close_1": 8, "dialogue_mi_close_2": 7, "open_map_7": 8, "dialogue_marya_close_0": 52, "learn_modal_close": 50, "merge_marya": 50, "dialogue_marya_close_1": 48, "merge_stebel": 49, "dialogue_marya_close_2": 46, "merge_bloom_tree": 45, "quest_done_0": 44, "dialogue_marya_close_3": 43, "level_up_2": 44, "dialogue_marya_close_5": 43, "first-drop-apples": 43, "2_apple_harvested": 43, "dialogue_marya_close_6": 42, "first-exchange": 40, "quest_done_1": 41, "dialogue_marya_close_7": 40, "first-key-collect": 40, "open_map_2": 40, "dialogue_marya_close_8": 40, "dialogue_mc_close_0": 40, "quest_open_2": 40, "first_click_in_root": 41, "dialogue_cat_close_0": 40, "first-cutting-of-the-root": 40, "quest_done_2": 41, "dialogue_cat_close_1": 40, "quest_open_20": 54, "second_click_in_root": 45, "second-cutting-of-the-root": 40, "first-delete-root": 40, "dialogue_cat_close_3": 40, "dialogue_cat_close_4": 40, "first_click_in_chest": 40, "quest_open_6": 40, "quest_open_19": 47, "first-open-chestS": 40, "quest_open_17": 40, "level_up_3": 40, "quest_done_20": 51, "quest_open_5": 37, "dialogue_cat_close_5": 37, "dialogue_mc_close_1": 36, "second-open-chestS": 36, "dialogue_cat_close_9": 36, "quest_done_17": 36, "level_up_4": 35, "quest_done_5": 35, "quest_open_7": 35, "quest_open_4": 34, "quest_open_9": 33, "dialogue_mc_close_7": 31, "quest_done_7": 27, "level_up_5": 28, "dialogue_cat_close_7": 29, "open_map_4": 30, "quest_open_8": 30, "level_up_6": 15, "dialogue_cat_close_6": 33, "open_map_3": 37, "first-merge-logs": 36, "quest_open_3": 34, "quest_done_19": 25, "quest_done_3": 33, "dialogue_mc_close_6": 33, "open_map_5": 32, "quest_open_18": 31, "quest_open_10": 27, "quest_done_9": 27, "dialogue_cat_close_8": 18, "quest_done_6": 24, "quest_open_16": 30, "quest_done_10": 15, "quest_open_11": 15, "quest_done_4": 10, "spawn_ivan": 10, "dialogue_mi_close_0": 9, "open_map_6": 25, "quest_open_14": 25, "quest_open_15": 25, "quest_done_15": 24, "quest_open_13": 24, "dialogue_cat_close_10": 24, "quest_done_13": 25, "dialogue_mi_close_3": 8, "quest_done_14": 8, "quest_open_21": 37, "quest_done_21": 29, "dialogue_mi_close_5": 7, "quest_done_11": 5, "quest_open_12": 5, "dialogue_mi_close_6": 6, "dialogue_mi_close_4": 4, "level_up_7": 5, "open_map_8": 4, "level_up_8": 0, "open_map_9": 0, "spawn_fisherwoman": 1, "first_items_spawn": 26, "quest_done_12": 1 } } }
+
+        const ctx = document.getElementById('myChart');
+        const ctx1 = document.querySelectorAll('#all');
+        url = 'http://codovstvo.ru:15680/get_data';
+        // первый 
+
+        let data_counts = []
+
+        for (let j in data.versions) {
+            console.log(data.versions[j])
+            if (data.versions[j] == '2.8.5') {
+                data_counts.push(data.v_dict_count[data.versions[j]])
+
+            }
+            if (data.versions[j] == '2.8.6') {
+                data_counts.push(data.v_dict_count[data.versions[j]])
+
+            }
+            if (data.versions[j] == '2.8.7') {
+                data_counts.push(data.v_dict_count[data.versions[j]])
+
+            }
+            if (data.versions[j] == '2.8.8') {
+                data_counts.push(data.v_dict_count[data.versions[j]])
+
+            }
+            if (data.versions[j] == '2.8.9') {
+                data_counts.push(data.v_dict_count[data.versions[j]])
+
+            }
+            if (data.versions[j] == '2.9') {
+                data_counts.push(data.v_dict_count[data.versions[j]])
+
+            }
+            if (data.versions[j] == '2.9.1') {
+                data_counts.push(data.v_dict_count[data.versions[j]])
+
+            }
+        }
+
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: data.versions,
+                datasets: [{
+                    label: "VERSION'S EVENTS",
+                    data: data_counts,
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+        // все остальные
+        for (let j in data.versions) {
+            console.log(data.events_to_version[data.versions[j]])
+            // ключи объекта преобразуем в массив (ES6)
+            let labls = Object.keys(data.events_to_version[data.versions[j]]);
+
+            // значения объекта преобразуем в массив (ES8)
+            let dats = Object.values(data.events_to_version[data.versions[j]]);
+            arrayLabel = labls
+
+            arrayData = dats;
+
+            arrayOfObj = arrayLabel.map(function (d, i) {
+                return {
+                    label: d,
+                    data: arrayData[i] || 0
+                };
+            });
+
+            sortedArrayOfObj = arrayOfObj.sort(function (a, b) {
+                return b.data - a.data;
+            });
+
+            newArrayLabel = [];
+            newArrayData = [];
+            sortedArrayOfObj.forEach(function (d) {
+                newArrayLabel.push(d.label);
+                newArrayData.push(d.data);
+
+
+            });
+            let max_100 = newArrayData[0]
+            new_data = []
+            for (let i in newArrayData) {
+                res = (newArrayData[i] / max_100) * 100
+                new_data.push(res)
+            }
+            console.log(new_data.length, newArrayLabel.length)
+            new Chart(ctx1[j], {
+                type: 'line',
+                data: {
+                    labels: newArrayLabel,
+                    datasets: [{
+                        label: "VERSION'S EVENTS" + "   " + data.versions[j],
+                        data: new_data,
+                        borderWidth: 1,
+                        fill: true,
+
+
+                    }]
+                },
+                options: {
+                    responsive: true,
+
+                    scales: {
+
+
+                        y: {
+                            display: true,
+                            type: 'logarithmic',
+                        },
+                        x: {
+                            display: false,
+                        },
+                        xAxes: {
+                            ticks: {
+                                minRotation: 1,
+                                autoskip: false,
+                                autoSkipPadding: 0,
+                                font: {
+                                    size: 18,
+                                    lineHeight: 1.2
+                                }
+                            },
+                            gridLines: {
+                                drawOnChartArea: false
+                            },
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            labels: {
+                                // This more specific font property overrides the global property
+                                font: {
+                                    size: 18,
+                                    lineHeight: 0.2
+                                }
+                            }
+                        }
+                    }
+
+                }
+            });
+
+        }
+
+
+
+
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
